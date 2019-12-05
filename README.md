@@ -3,7 +3,7 @@ The algorithm identifies all questions corresponding to 1-mark in a question pap
 # Dataset
 1. The raw data are pdf files / question papers of social studies subject SSLC of KSEEB  
 Download from here : http://kseeb.kar.nic.in/sslc_model_qp_2019.asp
-2. The raw data consisting of 10 question papers is in 'raw_data_pdf.zip' is converted to .csv files using manual annotations of question extraction and labeling. The 'train.csv' and 'test.csv are the corresponding files used in the algorithm
+2. The raw data consisting of 10 question papers is in 'raw_data_pdf.zip' is converted to .csv files using manual question sentence extraction and labeling. The 'train.csv' and 'test.csv are the corresponding files used in the algorithm
 
 # Approach 
 The approach of designing the algorithm can be found in file 'approach.jpg'. The algorithm uses a pre-trained word embedding to convert the sentences / words to vectors which are inputed to LSTM.  
