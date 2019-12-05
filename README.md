@@ -16,8 +16,9 @@ Just run the notebook predict_question_type.ipynb to visualize the results
 Python 3+, pandas, numpy, scikit-learn, keras (with tensorflow backend)
 
 # Results
-The algorithm predicts the question sentences correctly for the test question sentences and achieves a F1-score for train data : 98.93 % 
-Test evaluation is not possible as the test question sentences do not contain labels. I have purposely not labeled them, due to the nature of the use case.
+The algorithm predicts the question sentences correctly for the test question sentences and achieves a F1-score for train data : 98.93 %  
+
+Test evaluation is not possible as the test question sentences do not contain labels. I have purposely not labeled them, due to the nature of the use case. One could label them and calculate the metrics for test data
 
 # Cons
 1. Data gathering and labeling is a challenge ! 
